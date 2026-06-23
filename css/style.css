@@ -833,6 +833,14 @@ footer {
   margin-top:.5rem;
   width:100%;
 }
+.account-screen {
+  text-align:center;
+}
+.account-screen h3 {
+  font-family:'Playfair Display',serif;
+  color:var(--heading-color);
+  margin-bottom:1rem;
+}
 
 input::placeholder { color: var(--text-muted); opacity: 1; }
 select option { background: var(--bg-card); color: var(--text-main); }

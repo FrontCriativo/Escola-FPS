@@ -200,9 +200,14 @@ function closeModal(e) {
 }
 
 function openLogin() {
+  const isLoggedIn = document.querySelector('.btn-login').textContent === 'Aluno';
+  document.getElementById('loginForm').hidden = isLoggedIn;
+  document.getElementById('accountScreen').hidden = !isLoggedIn;
   document.getElementById('loginModalOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
-  setTimeout(() => document.getElementById('loginEmail').focus(), 100);
+  if (!isLoggedIn) {
+    setTimeout(() => document.getElementById('loginEmail').focus(), 100);
+  }
 }
 
 function requestLoan() {
@@ -228,6 +233,11 @@ function fakeLogin(e) {
     document.getElementById('loginForm').reset();
     message.textContent = '';
   }, 900);
+}
+
+function fakeLogout() {
+  document.querySelector('.btn-login').textContent = 'Login';
+  closeLogin();
 }
 
 document.addEventListener('keydown', e => {
