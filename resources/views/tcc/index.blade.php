@@ -388,6 +388,7 @@
   </div>
 </div>
 
+<script>window.libraryBooks = @json($booksPayload ?? []);</script>
 <script src="{{ asset('src/js/script.js') }}"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 /* ──────────────────────────────────────
    DATA
 ────────────────────────────────────── */
-const books = [
+const fallbackBooks = [
   { title:"Diário de um Banana", author:"Jeff Kinney", genre:"Literatura", emoji:"📖", image:"/src/img/diarioDeUmBanana.jpg", color:"#a8c7a0", available:true, rating:"★★★★★", desc:"As aventuras e confusões de Greg Heffley narradas em seu diário.", modalDescription:"Ao longo da história, Greg narra suas aventuras com o melhor amigo Rowley Jefferson — ele prefere, aliás, que chamem o diário de \"Livro de Memórias\". É início de ano letivo e tudo o que Greg quer é se tornar popular, mas suas tentativas — como ser monitor de crianças, escrever tirinhas para o jornal da escola ou entrar para o clube de luta — sempre terminam em fracasso, tornando a leitura leve e muito divertida.", year:2007, pages:224 },
   { title:"O Pequeno Príncipe", author:"Antoine de Saint-Exupéry", genre:"Literatura", emoji:"📘", image:"/src/img/oPequenoPrincipe.jpg", color:"#a0b8d8", available:true, rating:"★★★★★", desc:"Uma história atemporal sobre amizade, amor e o que realmente importa na vida. Leitura essencial.", year:1943, pages:96 },
   { title:"A Origem das Espécies", author:"Charles Darwin", genre:"Ciências", emoji:"📙", image:"/src/img/aOrigemDasEspecies.jpg", color:"#d8c4a0", available:false, rating:"★★★★☆", desc:"A obra que apresentou a teoria da evolução por seleção natural e transformou a compreensão da vida.", year:1859, pages:502 },
@@ -11,6 +11,7 @@ const books = [
   { title:"Romeu e Julieta", author:"William Shakespeare", genre:"Teatro", emoji:"🎭", image:"/src/img/RomeuAndJulieta.jpg", color:"#a0c4d4", available:true, rating:"★★★★★", desc:"A célebre tragédia de dois jovens apaixonados pertencentes a famílias rivais.", year:1597, pages:160 },
   { title:"Vidas Secas", author:"Graciliano Ramos", genre:"Literatura", emoji:"📖", image:"/src/img/vidasSecas.jpg", color:"#d8a0b8", available:true, rating:"★★★★★", desc:"Uma família de retirantes enfrenta a seca, a pobreza e a opressão no sertão nordestino.", year:1938, pages:176 },
 ];
+const books = Array.isArray(window.libraryBooks) && window.libraryBooks.length ? window.libraryBooks : fallbackBooks;
 
 /* THEME */
 const themeToggle = document.getElementById('themeToggle');
