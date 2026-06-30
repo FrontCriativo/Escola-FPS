@@ -145,19 +145,19 @@
 <!-- ─── STATS ─── -->
 <div class="stats-band">
   <div class="stat-item reveal">
-    <span class="stat-num" data-target="0">0</span>
+    <span class="stat-num" data-target="000">0</span>
     <p class="stat-label">Livros no Acervo</p>
   </div>
   <div class="stat-item reveal">
-    <span class="stat-num" data-target="0">0</span>
+    <span class="stat-num" data-target="000">0</span>
     <p class="stat-label">Alunos Cadastrados</p>
   </div>
   <div class="stat-item reveal">
-    <span class="stat-num" data-target="0">0</span>
+    <span class="stat-num" data-target="000">0</span>
     <p class="stat-label">Empréstimos / Mês</p>
   </div>
   <div class="stat-item reveal">
-    <span class="stat-num" data-target="0">0</span>
+    <span class="stat-num" data-target="000">0</span>
     <p class="stat-label">Eventos Realizados</p>
   </div>
 </div>
@@ -181,52 +181,52 @@
     <div class="cat-card reveal" style="--d:.1s">
       <div class="cat-icon">📖</div>
       <div class="cat-name">Literatura</div>
-      <div class="cat-count">??? títulos</div>
+      <div class="cat-count">000 títulos</div>
     </div>
     <div class="cat-card reveal" style="--d:.2s">
       <div class="cat-icon">🔬</div>
       <div class="cat-name">Ciências</div>
-      <div class="cat-count">??? títulos</div>
+      <div class="cat-count">000 títulos</div>
     </div>
     <div class="cat-card reveal" style="--d:.3s">
       <div class="cat-icon">📐</div>
       <div class="cat-name">Matemática</div>
-      <div class="cat-count">??? títulos</div>
+      <div class="cat-count">000 títulos</div>
     </div>
     <div class="cat-card reveal" style="--d:.4s">
       <div class="cat-icon">🌍</div>
       <div class="cat-name">História</div>
-      <div class="cat-count">??? títulos</div>
+      <div class="cat-count">000 títulos</div>
     </div>
     <div class="cat-card reveal" style="--d:.5s">
       <div class="cat-icon">🎨</div>
       <div class="cat-name">Artes</div>
-      <div class="cat-count">??? títulos</div>
+      <div class="cat-count">000 títulos</div>
     </div>
     <div class="cat-card reveal" style="--d:.6s">
       <div class="cat-icon">🌐</div>
       <div class="cat-name">Geografia</div>
-      <div class="cat-count">??? títulos</div>
+      <div class="cat-count">000 títulos</div>
     </div>
     <div class="cat-card reveal" style="--d:.7s">
       <div class="cat-icon">🧠</div>
       <div class="cat-name">Filosofia</div>
-      <div class="cat-count">??? títulos</div>
+      <div class="cat-count">000 títulos</div>
     </div>
     <div class="cat-card reveal" style="--d:.8s">
       <div class="cat-icon">💻</div>
       <div class="cat-name">Tecnologia</div>
-      <div class="cat-count">??? títulos</div>
+      <div class="cat-count">000 títulos</div>
     </div>
     <div class="cat-card reveal" style="--d:.9s">
       <div class="cat-icon">🌱</div>
       <div class="cat-name">Meio Ambiente</div>
-      <div class="cat-count">??? títulos</div>
+      <div class="cat-count">000 títulos</div>
     </div>
     <div class="cat-card reveal" style="--d:1s">
       <div class="cat-icon">🎵</div>
       <div class="cat-name">Música</div>
-      <div class="cat-count">??? títulos</div>
+      <div class="cat-count">000 títulos</div>
     </div>
   </div>
 </section>
@@ -308,8 +308,8 @@
       <div class="big-book-icon">📚</div>
       <div class="hours-card">
         <h4>⏰ Horário de Funcionamento</h4>
-        <div class="hour-row"><span>Segunda — Sexta</span><span>7h às 21h</span></div>
-        <div class="hour-row"><span>Sábado</span><span>Fechado</span></div>
+        <div class="hour-row"><span>Segunda — Sexta</span><span>7h às 18h</span></div>
+        <div class="hour-row"><span>Sábado</span><span>8h às 12h</span></div>
         <div class="hour-row"><span>Domingo</span><span>Fechado</span></div>
       </div>
     </div>

@@ -20,7 +20,7 @@ until mysqladmin ping -h"${DB_HOST:-mysql}" -P"${DB_PORT:-3306}" -u"${DB_USERNAM
     sleep 2
 done
 
-CACHE_STORE=file php artisan optimize:clear
+php artisan optimize:clear
 php artisan filament:upgrade
 php artisan storage:link || true
 php artisan migrate --seed --force
